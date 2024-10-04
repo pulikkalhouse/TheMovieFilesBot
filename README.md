@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://i.ibb.co/qpxpGmC/image.jpg" alt="Jisshu-Auto-filter">
+  <img src="https://te.legra.ph/file/bfcb08c45a913f3eb31e6.jpg" alt="The-Movie-filter">
 </p>
 <h1 align="center">
-  <a href="https://telegram.me/JISSHU_BOTS">Jisshu Auto Filter Bot</a>
+  <a href="https://telegram.me/Yadav_pradeeep">The Auto filter</a>
 </h1>
 <img src="https://cdn.jsdelivr.net/gh/Jisshubot/Jisshubot/resources/hr.gif"/>
 
@@ -78,7 +78,7 @@
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/Jisshubot/Jisshu-filter-bot">
+<a href="https://heroku.com/deploy?template=https://github.com/YADUVANSHIXD/TheMovieFilterBot">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy To Heroku">
 </a>
 </p>
@@ -90,7 +90,7 @@
 <br>
 <br>
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/Jisshubots/Jisshu-filter-bot&branch=main&name=Jisshu-filter-bot )
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/YADUVANSHIXD/TheMovieFilterBot&branch=main&name=TheMovieFilterBot )
 </details>
 
 <details><summary>Deploy To Render</summary>
@@ -117,7 +117,7 @@ Use these settings when adding a monitor:</b>
 <b>Click on the below button to deploy directly to render ↓</b>
 <br>
 <br>
-<a href="https://render.com/deploy?repo=https://github.com/Jisshubots/Jisshu-filter-bot/tree/main">
+<a href="https://render.com/deploy?repo=https://github.com/YADUVANSHIXD/TheMovieFilterBot/tree/main">
 <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
 </a>
 </details>
@@ -125,7 +125,7 @@ Use these settings when adding a monitor:</b>
 <details><summary>Deploy To VPS</summary>
 <p>
 <pre>
-git clone https://github.com/Jisshubot/Jisshu-filter-bot
+git clone https://github.com/YADUVANSHIXD/TheMovieFilterBot
 # Install Packages
 pip3 install -U -r requirements.txt
 Edit info.py with variables as given below then run bot
@@ -138,7 +138,7 @@ python3 bot.py
 
 
 ## **Thanks to** 
- - <b>Thanks To [Zishan Khan](https://t.me/JISSHU_BOTS) To Modify And Add Amazing Feature In The Repo
+ - <b>Thanks To [Yaduvanshi_bots](https://t.me/YaduvanshiXbotz) To Modify And Add Amazing Feature In The Repo
  - Thanks To [biisal](https://github.com/biisal/biisal-filter-bot) For Base Repo
  - Thanks To [Ꭺɴᴏɴʏᴍᴏᴜꜱ](https://t.me/TG_Anonymous_Official) To refresh Future Code and Update premium future</b>
  - Thanks To [Zoro](https://t.me/JOYBOY_ZORO) Your ideas have been a huge help in improving this project. Thanks for your valuable input!
@@ -149,6 +149,6 @@ python3 bot.py
 <img src="https://github.com/Jisshubot/Jisshubot/blob/master/resources/hr.gif"/>
 <h1> <img src="https://cdn.jsdelivr.net/gh/Jisshubot/JISSHU_BOTS/Logo/Jisshu.png" width="70px" style="border-radius: 50%"> ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ </h1>
   
-[<img src="https://raw.githubusercontent.com/Jisshubot/Jisshubot/master/resources/telegram_icon.png" width="60px">](https://telegram.im/@JISSHU_BOTS) [<img src="https://raw.githubusercontent.com/AnonymousX1025/AnonymousX1025/master/resources/github_icon.png" width="60px">](https://github.com/Jisshubot) [<img src="https://raw.githubusercontent.com/AnonymousX1025/AnonymousX1025/master/resources/youtube_icon.png" width="60px">](https://www.youtube.com/@JISSHU-BOTS) [<img src="https://github.com/AnonymousX1025/AnonymousX1025/blob/master/resources/insta_icon.png" width="60px">](https://instagram.com/Zishan_khan565)
+[<img src="https://raw.githubusercontent.com/Jisshubot/Jisshubot/master/resources/telegram_icon.png" width="60px">](https://telegram.im/@YADUVANSHIXBOTZ) [<img src="https://raw.githubusercontent.com/AnonymousX1025/AnonymousX1025/master/resources/github_icon.png" width="60px">](https://github.com/YADUVANSHIXD) [<img src="https://raw.githubusercontent.com/AnonymousX1025/AnonymousX1025/master/resources/youtube_icon.png" width="60px">](https://www.youtube.com/@YADUVANSHI_XD) [<img src="https://github.com/AnonymousX1025/AnonymousX1025/blob/master/resources/insta_icon.png" width="60px">](https://instagram.com/Yaduvanshi_pradeep__143)
 
 <img src="https://cdn.jsdelivr.net/gh/Jisshubot/Jisshubot/resources/hr.gif"/>
