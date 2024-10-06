@@ -557,11 +557,11 @@ async def send_msg(bot, message):
     else:
         await message.reply_text("<b>ᴜꜱᴇ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ᴀꜱ ᴀ ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏ ᴍᴇꜱꜱᴀɢᴇ, ꜰᴏʀ ᴇɢ - <code>/send userid1 userid2</code></b>")
 
-@Client.on_message(filters.regex("#request"))
+@Client.on_message(filters.regex(r"#request", re.IGNORECASE))
 async def send_request(bot, message):
     try:
         request = message.text.split(" ", 1)[1]
-    except:
+    except IndexError:
         await message.reply_text("<b>‼️ ʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ ɪs ɪɴᴄᴏᴍᴘʟᴇᴛᴇ</b>")
         return
     buttons = [[
@@ -1046,6 +1046,27 @@ async def set_pm_search_off(client, message):
     await db.update_pm_search_status(bot_id, enable=False)
     await message.reply_text("<b><i>❌️ ᴘᴍ ꜱᴇᴀʀᴄʜ ᴅɪꜱᴀʙʟᴇᴅ, ꜰʀᴏᴍ ɴᴏᴡ ɴᴏ ᴏɴᴇ ᴄᴀɴ ᴀʙʟᴇ ᴛᴏ ꜱᴇᴀʀᴄʜ ᴍᴏᴠɪᴇ ɪɴ ʙᴏᴛ ᴘᴍ.</i></b>")
 
+
+@Client.on_message(filters.private & filters.command("movie_update_on"))
+async def set_send_movie_on(client, message):
+    user_id = message.from_user.id
+    bot_id = client.me.id
+    if user_id not in ADMINS:
+        await message.delete()
+        return    
+    await db.update_send_movie_update_status(bot_id, enable=True)
+    await message.reply_text("<b><i>✅️ ꜱᴇɴᴅ ᴍᴏᴠɪᴇ ᴜᴘᴅᴀᴛᴇ ᴇɴᴀʙʟᴇᴅ.</i></b>")
+    
+@Client.on_message(filters.private & filters.command("movie_update_off"))
+async def set_send_movie_update_off(client, message):
+    user_id = message.from_user.id
+    bot_id = client.me.id
+    if user_id not in ADMINS:
+        await message.delete()
+        return    
+    await db.update_send_movie_update_status(bot_id, enable=False)
+    await message.reply_text("<b><i>❌️ ꜱᴇɴᴅ ᴍᴏᴠɪᴇ ᴜᴘᴅᴀᴛᴇ ᴅɪꜱᴀʙʟᴇᴅ.</i></b>")
+    
 @Client.on_message(filters.command("verify_id"))
 async def generate_verify_id(bot, message):
     if message.from_user.id not in ADMINS:
