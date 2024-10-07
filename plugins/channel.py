@@ -89,12 +89,8 @@ async def send_movie_updates(bot, file_name, caption, file_id):
             no_poster = "https://telegra.ph/file/88d845b4f8a024a71465d.jpg"
             await bot.send_photo(movie_update_channel if movie_update_channel else MOVIE_UPDATE_CHANNEL, 
                                  photo=no_poster, caption=caption_message, reply_markup=reply_markup)  
-            try:
-    # Perform an operation
-    risky_operation()
-except Exception as e:
-    # Handle the error
-    print(f"An error occurred: {e}")
+        except Exception as e:
+        print('Failed to send movie update. Error - ', e)
+        await bot.send_message(LOG_CHANNEL, f'Failed to send movie update. Error - {e}')
 
-
-            
+  
