@@ -1,8 +1,8 @@
-#
-#
-#
-#
-# 
+# Credit - JISSHU BOTS
+# Modified By NBBotz
+# Some Codes Are Taken From A GitHub Repository And We Forgot His Name
+# Base Code Bishal
+
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from info import CHANNELS, MOVIE_UPDATE_CHANNEL, ADMINS , LOG_CHANNEL
@@ -38,7 +38,7 @@ async def get_imdb(file_name):
 async def movie_name_format(file_name):
   filename = re.sub(r'http\S+', '', re.sub(r'@\w+|#\w+', '', file_name).replace('_', ' ').replace('[', '').replace(']', '').replace('(', '').replace(')', '').replace('{', '').replace('}', '').replace('.', ' ').replace('@', '').replace(':', '').replace(';', '').replace("'", '').replace('-', '').replace('!', '')).strip()
   return filename
-  
+
 async def check_qualities(text, qualities: list):
     quality = []
     for q in qualities:
@@ -48,7 +48,7 @@ async def check_qualities(text, qualities: list):
     return quality[:-2] if quality.endswith(", ") else quality
 
 async def send_movie_updates(bot, file_name, caption, file_id):
-  try:
+    try:
         year_match = re.search(r"\b(19|20)\d{2}\b", caption)
         year = year_match.group(0) if year_match else None      
         pattern = r"(?i)(?:s|season)0*(\d{1,2})"
@@ -89,8 +89,8 @@ async def send_movie_updates(bot, file_name, caption, file_id):
             no_poster = "https://telegra.ph/file/88d845b4f8a024a71465d.jpg"
             await bot.send_photo(movie_update_channel if movie_update_channel else MOVIE_UPDATE_CHANNEL, 
                                  photo=no_poster, caption=caption_message, reply_markup=reply_markup)  
-        except Exception as e:
+    except Exception as e:
         print('Failed to send movie update. Error - ', e)
         await bot.send_message(LOG_CHANNEL, f'Failed to send movie update. Error - {e}')
-
+    
   
