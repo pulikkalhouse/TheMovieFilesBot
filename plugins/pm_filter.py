@@ -1577,7 +1577,7 @@ async def auto_filter(client, msg, spoll=False , pm_mode = False):
                     await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024] + links + js_ads, reply_markup=InlineKeyboardMarkup(btn))
                 except pyrogram.errors.ButtonUserPrivacyRestricted:
                     print("User's privacy settings restrict button creation.")
-    await message.reply_text("Sorry, your privacy settings do not allow interaction with this bot.")                    
+            await message.reply_text("Sorry, your privacy settings do not allow interaction with this bot.")                    
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
             pic = imdb.get('poster')
             poster = pic.replace('.jpg', "._V1_UX360.jpg")
