@@ -1573,7 +1573,7 @@ async def auto_filter(client, msg, spoll=False , pm_mode = False):
                 except:
                     pass
             else:
-                try:
+                try:    
     await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024] + links + js_ads, reply_markup=InlineKeyboardMarkup(btn))
 except pyrogram.errors.ButtonUserPrivacyRestricted:
     print("User's privacy settings restrict button creation.")
