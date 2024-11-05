@@ -53,8 +53,8 @@ SHORTENER_API2 = environ.get("SHORTENER_API2", "90e29f189969e1041b47ae54be34cf46
 SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'Publicearn.com')
 SHORTENER_API3 = environ.get("SHORTENER_API3", "e36fc95289f44c5b5af8ef6daa44dcf75ddaecd1")
 SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'Tryshort.in')
-TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
-THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))
+TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "28800"))
+THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "28800"))
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 LANGUAGES = ["hindi", "english", "telugu", "tamil", "kannada", "malayalam", "bengali", "marathi", "gujarati", "punjabi"]
@@ -74,7 +74,7 @@ FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
 PAYPICS = (environ.get('PAYPICS', 'https://envs.sh/WzX.jpg')).split()
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://envs.sh/WzO.jpg'))
-REACTIONS = ["👀", "😈", "🔥", "😍", "🎉", "🥰", "❤️", "🌹", "😇", "⚡"]
+REACTIONS = ["👀", "😈", "🔥", "😍", "🎉", "🥰", "❤️", "🌹", "👻", "🌚", "🤡", "😇", "⚡"]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
