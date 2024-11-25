@@ -43,14 +43,14 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/YaduvanshiXsupport') #S
 #---------------------------------------------------------------
 IS_VERIFY = is_enabled('IS_VERIFY', True)
 #---------------------------------------------------------------
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/How_to_open_movielink")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/How_to_open_movielink/14")
 TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/How_to_open_movielink")
 TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/How_to_open_movielink")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 SHORTENER_API = environ.get("SHORTENER_API", "1dacaa27ce824e44b95f1b6a11939575205d1fa9")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'Instantearn.in')
 SHORTENER_API2 = environ.get("SHORTENER_API2", "90e29f189969e1041b47ae54be34cf46669e2908")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'Publicearn.com')
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'Publicearn.in')
 SHORTENER_API3 = environ.get("SHORTENER_API3", "e36fc95289f44c5b5af8ef6daa44dcf75ddaecd1")
 SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'Tryshort.in')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "28800"))
@@ -74,7 +74,7 @@ FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
 PAYPICS = (environ.get('PAYPICS', 'https://envs.sh/WzX.jpg')).split()
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://envs.sh/WzO.jpg'))
-REACTIONS = ["👀", "😈", "🔥", "😍", "🎉", "🥰", "❤️", "🌹", "👻", "🌚", "🤡", "😇", "⚡"]
+REACTIONS = ["👀", "😈", "🔥", "😍", "🎉", "🥰", "❤️", "🤠", "😘", "🙏", "🤗", "😻", "🌹", "👻", "🌚", "🤡", "😇", "⚡"]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
