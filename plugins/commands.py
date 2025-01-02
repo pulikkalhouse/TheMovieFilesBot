@@ -403,7 +403,7 @@ async def start(client:Client, message):
         reply_markup=InlineKeyboardMarkup(btn)
     )
     delCap = "<b>ʏᴏᴜʀ ғɪʟᴇ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ᴀғᴛᴇʀ {} ᴛᴏ ᴀᴠᴏɪᴅ ᴄᴏᴘʏʀɪɢʜᴛ ᴠɪᴏʟᴀᴛɪᴏɴs!</b>".format(f'{FILE_AUTO_DEL_TIMER / 3600} ʜᴏᴜʀs' if FILE_AUTO_DEL_TIMER >= 3600 else f'{FILE_AUTO_DEL_TIMER / 60} ᴍɪɴᴜᴛᴇs')
-    afterDelCap = "<b>⊘ This message was deleted</b>" 
+    afterDelCap = "<b><i>⊘ This message was deleted</i></b>" 
     replyed = await message.reply(
         delCap,
         reply_to_message_id= toDel.id)
