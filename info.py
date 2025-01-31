@@ -43,9 +43,9 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/YaduvanshiXsupport') #S
 #---------------------------------------------------------------
 IS_VERIFY = is_enabled('IS_VERIFY', True)
 #---------------------------------------------------------------
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/How_to_open_movielink/16")
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/How_to_open_movielink/14")
-TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/How_to_open_movielink/15")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/How_to_open_movielink/17")
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/How_to_open_movielink/15")
+TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/How_to_open_movielink/14")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 SHORTENER_API = environ.get("SHORTENER_API", "4030dd8b87e40fb381a15ce48c4a56555bed524e")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'arlinks.in')
