@@ -1436,7 +1436,11 @@ async def auto_filter(client, msg, spoll=False , pm_mode = False):
         search = message.text
         chat_id = message.chat.id
         settings = await get_settings(chat_id , pm_mode=pm_mode)
-        searching_msg = await msg.reply_text(f'🔎 sᴇᴀʀᴄʜɪɴɢ {search}')
+        from random import randint
+
+        random_id = randint(1, 2**64 - 1)  # Ensure uniqueness
+        await client.send_message(chat_id, "Your message", random_id=random_id)
+
         files, offset, total_results = await get_search_results(search)
         await searching_msg.delete()
         if not files:
