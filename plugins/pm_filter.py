@@ -1437,7 +1437,7 @@ async def auto_filter(client, msg, spoll=False , pm_mode = False):
         chat_id = message.chat.id
         settings = await get_settings(chat_id , pm_mode=pm_mode)
         print(f"Search Query: {search}")
-        searching_msg = await message.reply_text('🔎 sᴇᴀʀᴄʜɪɴɢ {search}')
+        searching_msg = await message.reply_text(f'🔎 sᴇᴀʀᴄʜɪɴɢ {search}')
         files, offset, total_results = await get_search_results(search)
         await searching_msg.delete()
         from random import randint
