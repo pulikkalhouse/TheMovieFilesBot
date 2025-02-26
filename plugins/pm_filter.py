@@ -1438,8 +1438,8 @@ async def auto_filter(client, msg, spoll=False , pm_mode = False):
         settings = await get_settings(chat_id , pm_mode=pm_mode)
         from random import randint
         random_id = randint(1, 2**64 - 1)  # Ensure uniqueness
+	searching_msg = await message.reply_text('🔎 sᴇᴀʀᴄʜɪɴɢ {search}')
         files, offset, total_results = await get_search_results(search)
-        searching_msg = await message.reply_text('🔎 sᴇᴀʀᴄʜɪɴɢ {search')
         await searching_msg.delete()
         if not files:
             if settings["spell_check"]:
