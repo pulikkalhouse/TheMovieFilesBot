@@ -1441,7 +1441,7 @@ async def auto_filter(client, msg, spoll=False , pm_mode = False):
         random_id = randint(1, 2**64 - 1)  # Ensure uniqueness
         await client.send_message(chat_id, "Your message")
         files, offset, total_results = await get_search_results(search)
-        await searching_msg.delete()
+        searching_msg = await message.reply_text("Searching🔍...")
         if not files:
             if settings["spell_check"]:
                 ai_sts = await msg.reply_text(f'ᴄʜᴇᴄᴋɪɴɢ ʏᴏᴜʀ sᴘᴇʟʟɪɴɢ...')
