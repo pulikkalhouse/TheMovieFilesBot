@@ -44,15 +44,15 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/YaduvanshiXsupport') #S
 IS_VERIFY = is_enabled('IS_VERIFY', True)
 #---------------------------------------------------------------
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/How_to_open_movielink/17")
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/How_to_open_movielink/15")
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/How_to_open_movielink/18")
 TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/How_to_open_movielink/14")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 SHORTENER_API = environ.get("SHORTENER_API", "4030dd8b87e40fb381a15ce48c4a56555bed524e")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'arlinks.in')
-SHORTENER_API2 = environ.get("SHORTENER_API2", "597e5e39d64825dedf5b43361e9a57e5d1ab6be5")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'shortxlinks.com')
-SHORTENER_API3 = environ.get("SHORTENER_API3", "1dacaa27ce824e44b95f1b6a11939575205d1fa9")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'Instantearn.in')
+SHORTENER_API2 = environ.get("SHORTENER_API2", "8a77b545e2c06c440d30e7dedccd234edd74ea34")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'IndiaearnX.com')
+SHORTENER_API3 = environ.get("SHORTENER_API3", "cb6243bee96a21ea399e214f1484a7de4652edc9")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'Softurl.in')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "21600"))
 #---------------------------------------------------------------
@@ -69,7 +69,7 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-START_IMG = (environ.get('START_IMG', 'https://te.legra.ph/file/b4a3747fc57c0a78b8ce7.jpg https://te.legra.ph/file/96bfa2b897869b53f3c1b.jpg https://telegra.ph/file/ab7c45feabcd446799ec9.jpg https://telegra.ph/file/be0e05a69125057f7403d.jpg https://telegra.ph/file/083d98858adfc45ce1761.jpg https://telegra.ph/file/c3e7e855f6fe2deb7fe21.jpg https://telegra.ph/file/966dae7b6f91a58aa037c.jpg https://telegra.ph/file/fa74ca254cc4368c167cd.jpg https://telegra.ph/file/08e2e68f2d9c959ca30fc.jpg https://telegra.ph/file/1d63c8f8102d8bf6dd90f.jpg https://envs.sh/Wza.jpg')).split()
+START_IMG = (environ.get('START_IMG', 'https://te.legra.ph/file/b4a3747fc57c0a78b8ce7.jpg https://te.legra.ph/file/96bfa2b897869b53f3c1b.jpg https://telegra.ph/file/ab7c45feabcd446799ec9.jpg https://telegra.ph/file/be0e05a69125057f7403d.jpg https://telegra.ph/file/083d98858adfc45ce1761.jpg https://telegra.ph/file/c3e7e855f6fe2deb7fe21.jpg https://telegra.ph/file/966dae7b6f91a58aa037c.jpg https://telegra.ph/file/fa74ca254cc4368c167cd.jpg https://telegra.ph/file/08e2e68f2d9c959ca30fc.jpg https://telegra.ph/file/1d63c8f8102d8bf6dd90f.jpg https://envs.sh/Wza.jpg https://files.catbox.moe/kf2c2z.jpg https://files.catbox.moe/tljzgo.jpg https://files.catbox.moe/gtonu2.jpg https://files.catbox.moe/4az6sz.jpg https://files.catbox.moe/ceg0l0.jpg')).split()
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
 PAYPICS = (environ.get('PAYPICS', 'https://envs.sh/WzX.jpg')).split()
