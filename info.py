@@ -18,7 +18,7 @@ API_HASH = environ.get('API_HASH', 'a961168f7807061e77e1fb39c3f6ef71')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5294914915 7033385522').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5294914915 7986684117').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/B4UOwnerBot") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002179479692'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/B4UMOVIEZONE')
@@ -44,22 +44,22 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/YaduvanshiXsupport') #S
 IS_VERIFY = is_enabled('IS_VERIFY', True)
 #---------------------------------------------------------------
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/How_to_open_movielink/17")
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/How_to_open_movielink/18")
-TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/How_to_open_movielink/14")
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/How_to_open_movielink/22")
+TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/How_to_open_movielink/18")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 SHORTENER_API = environ.get("SHORTENER_API", "4030dd8b87e40fb381a15ce48c4a56555bed524e")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'arlinks.in')
-SHORTENER_API2 = environ.get("SHORTENER_API2", "8a77b545e2c06c440d30e7dedccd234edd74ea34")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'IndiaearnX.com')
-SHORTENER_API3 = environ.get("SHORTENER_API3", "cb6243bee96a21ea399e214f1484a7de4652edc9")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'Softurl.in')
+SHORTENER_API2 = environ.get("SHORTENER_API2", "c4fea41840e9405644de2572c5312a19a9e41286")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'youlinks.in')
+SHORTENER_API3 = environ.get("SHORTENER_API3", "8a77b545e2c06c440d30e7dedccd234edd74ea34")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'IndiaearnX.com')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "21600"))
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 LANGUAGES = ["hindi", "english", "telugu", "tamil", "kannada", "malayalam", "bengali", "marathi", "gujarati", "punjabi"]
 QUALITIES = ["HdRip","web-dl" ,"bluray", "hdr", "fhd" , "240p", "360p", "480p", "540p", "720p", "960p", "1080p", "1440p", "2K", "2160p", "4k", "5K", "8K"]
-YEARS = [f'{i}' for i in range(2024 , 2002,-1 )]
+YEARS = [f'{i}' for i in range(2025 , 2002,-1 )]
 SEASONS = [f'season {i}'for i in range (1 , 23)]
 REF_PREMIUM = 30
 PREMIUM_POINT = 1500
